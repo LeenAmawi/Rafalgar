@@ -1,8 +1,8 @@
 ## ✏️ Description
 The goal of this project is to create a simple HTML & CSS webpage .
 ##  📌 Technologies used
--HTML5 .
--Css .
+- HTML5 
+- Css 
 ## ▶️ Setup instructions
 setup mulish font:
 https://fonts.google.com
