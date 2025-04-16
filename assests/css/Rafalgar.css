@@ -228,9 +228,24 @@ top: -25px;
         display: flex;
         align-items: center;
         gap: 1rem;
-    }
+     
+}
     .card a i{
         font-size: 13px;
+        transition:all 2s ease  ;
+        -webkit-transition:all 2s ease  ;
+        -moz-transition:all 2s ease  ;
+        -ms-transition:all 2s ease  ;
+        -o-transition:all 2s ease  ;
+       
+    }
+    
+    .card a:hover i{
+        transform: translateX(10px);
+        -webkit-transform: translateX(10px);
+        -moz-transform: translateX(10px);
+        -ms-transform: translateX(10px);
+        -o-transform: translateX(10px);
     }
     .article .flex{
         flex-wrap: wrap;
@@ -251,7 +266,7 @@ top: -25px;
  .article .article-bg{
 position: absolute;
 z-index: -1;
-bottom: 20px;
+/* bottom: 20px; */
 right: 0px;
 bottom: 150px;
  }
@@ -271,6 +286,7 @@ bottom: 150px;
     width: 200px;
     height: 60px;
 }
+
 .section-3 .header-content .btn{
     border: 2px solid;
     background-color: white;
